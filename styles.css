@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Open+Sans:400,600');
+
+body {
+  background-color: #DA5D55;
+
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  width: 60%;
+  text-align: left;
+  color: white;
+  padding: 40px 20% 10px 10%;
+
+}
+
+.sb {
+  border: 2px solid white;
+  width: 400px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.sb-header {
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  padding: 6px 0 6px 0;
+  border-bottom: 2px solid white;
+
+}
+
+.player {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: white;
+  display: inline-block;
+  width: 198px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 0 6px 0;
+}
+
+.sb-score {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 3em;
+  color: white;
+  width: 198px;
+  display: inline-block;
+  text-align: center;
+  padding: 0px 0 10px 0;
+}
+
+#sb-userscore {
+
+}
+
+#sb-botscore {
+
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+
+}
+
+nav {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav div {
+  width: 120px;
+  height: 60px;
+  background-color: #DA5D55;
+  padding-top: 12px;
+  border: 2px solid white;
+  display: inline-block;
+}
+
+nav div:hover {
+  background-color: black;
+}
+
+nav div img {
+  height: 60px;
+}
+
+#rock {
+  float: left;
+}
+
+#paper { 
+}
+
+#scissors {
+  float: right;
+}
+
+#selection1 {
+  text-decoration: underline;
+}
+
+#selection2 {
+  text-decoration: underline;
+}
+
+#winner {
+
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+
+}

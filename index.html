@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>rock, paper, scissors</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Rock </br> Paper </br> Scissors</h1>
+
+  <div class="sb">
+
+    <div class="sb-header">Scoreboard</div>
+   
+      <div class="player" id="you">You</div>
+      <div class="player" id="bot">Bot</div>
+
+      <div class="sb-score" id="sb-userscore">0</div>
+      <div class="sb-score" id="sb-botscore">0</div>
+
+  </div>
+
+  <h2 class="choose">Choose One:</h2>
+
+  <nav>
+    
+    <div id="rock"><img class="rps" src="rock.svg"></div>
+    
+    <div id="paper"><img class="rps" src="paper.svg"></div>
+    
+    <div id="scissors"><img class="rps" src="scissors.svg"></div>
+  
+  </nav>
+
+  <h3 class="result">You played <span id="selection1">__</span>. The Bot played <span id="selection2">__</span>.
+  </h3>
+  <h2 id="winner"></h2>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
